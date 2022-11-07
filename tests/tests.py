@@ -1,5 +1,8 @@
 
-from demo import hello
 
-def test_hello():
-    assert hello() == "hello world"
+from demo import index
+
+
+def test_index():
+    assert index() == "Hello, world!"
+
